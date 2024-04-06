@@ -11,13 +11,13 @@ Analysis is done with \~10,000 articles for chatGPT edit analysis, and \~3500 pe
 
 As a high level summary of what the notebooks do: 
 
-* __scrape_medium.ipynb__
+* __[scrape_medium.ipynb](https://nbviewer.org/github/kiroah/AI-editted-articles/blob/main/scrape_medium.ipynb)__
   * Scrape article list from Medium by tag (currently using _"data-science"_)
   * Scrape articles based on the article list (after random sampling)
-* __chatgpt.ipynb__
+* __[chatgpt.ipynb](https://nbviewer.org/github/kiroah/AI-editted-articles/blob/main/chatgpt.ipynb)__
   * Run the scraped articles against chatGPT with a prompt to edit the article
   * Run POS tagging using nltk and see term occurance difference by type of POS (e.g. adjective, adverb)
-* __trend_analysis.ipynb__
+* __[trend_analysis.ipynb](https://nbviewer.org/github/kiroah/AI-editted-articles/blob/main/trend_analysis.ipynb)__
   * Additionally run yearly trend analysis of the original articles and its term occurance by type of POS, to see article trend diffs between pre-chatGPT VS. post-chatGPT (after 1/22/2023)
 
 
